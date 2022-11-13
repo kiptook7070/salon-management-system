@@ -1,0 +1,30 @@
+Frontend -
+
+1. Install Node & angular CLI (Angular version 8)
+2. Go to root of salon-ui folder
+3. Run "npm install" - This will install all the dependencies
+4. Open "src/app/services/api.service.ts"
+5. Edit line no. 10. Replace the server URL if needed
+6. Run "npm start" or "ng serve" to start the angular server.
+7. Open http://localhost:4200 on the browser to see the running project.
+
+In case, you want to create a desktop build, run this command - 
+electron-packager . SalonProject --disable-http-cache --overwrite --asar=true --platform=win32 --arch=x64 --prune=true --out=release-builds
+
+A folder "release-builds" will be created and that will contain the Desktop build.
+
+
+Backend -
+
+1. If windows, then install "WAMP" or "XAMPP"
+2. If linux system, then install "LAMP"
+3. If Mac, then install "MAMP"
+4. Run the respective software, i.e. MAMP/LAMP/WAMP
+5. PHP version should be greater 7.2
+6. Put the project folder inside, if WAMP, then www/html. If XAMPP and MAMP, then inside htdocs
+7. Open project (salon-backend), open config.php, provide the project credentials.
+8. All the APIs are written in index.php
+9. In index.php, line no. 1040, replace the printer's name, and below that change the salon's details.
+
+
+You can email to sajal.suraj@gmail.com when you face the problem.
