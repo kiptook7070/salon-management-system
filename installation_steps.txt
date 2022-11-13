@@ -27,4 +27,4 @@ Backend -
 9. In index.php, line no. 1040, replace the printer's name, and below that change the salon's details.
 
 
-You can email to sajal.suraj@gmail.com when you face the problem.
+IF YOU ENCOUNTER ANY PROBLEM, PLEASE TRY TO FIX THEM!!!
